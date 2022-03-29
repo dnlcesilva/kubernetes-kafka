@@ -10,6 +10,7 @@ This community seeks to provide:
 
 We suggest you `apply -f` manifests in the following order:
  * [namespace](./00-namespace.yml)
+ * [local path storage](./local-path-storage.yaml)
  * [./rbac-namespace-default](./rbac-namespace-default/)
  * [./zookeeper](./zookeeper/)
  * [./kafka](./kafka/)
