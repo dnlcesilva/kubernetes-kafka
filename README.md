@@ -5,9 +5,6 @@ This community seeks to provide:
  * Operational knowledge, biased towards resilience over throughput, as Kubernetes manifest.
  * A platform for event-driven (streaming!) microservices design using Kubernetes.
 
-To quote [@arthurk](https://github.com/Yolean/kubernetes-kafka/issues/82#issuecomment-337532548):
-
-> thanks for creating and maintaining this Kubernetes files, they're up-to-date (unlike the kubernetes contrib files, don't require helm and work great!
 
 ## Getting started
 
