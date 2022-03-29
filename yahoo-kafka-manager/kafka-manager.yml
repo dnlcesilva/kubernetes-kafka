@@ -24,3 +24,6 @@ spec:
         command:
         - ./bin/kafka-manager
         - -Dhttp.port=80
+        #dnlcesilva/kafka-manager:v2
+        #- ./bin/cmak
+        #- -Dconfig.file=conf/application.conf

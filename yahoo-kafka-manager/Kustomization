@@ -1,3 +1,4 @@
 resources:
 - kafka-manager-service.yml
 - kafka-manager.yml
+- outside-manager.yml

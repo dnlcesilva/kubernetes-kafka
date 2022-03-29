@@ -1,0 +1,19 @@
+kind: ReplicationController
+apiVersion: v1
+metadata:
+  name: kafka-cat
+  namespace: kafka
+spec:
+  replicas: 1
+  selector:
+    app: kafka-cat
+  template:
+    metadata:
+      labels:
+        app: kafka-cat
+    spec:
+      containers:
+        - name: kafka-cat
+          image: confluentinc/cp-kafkacat
+          command: ["/bin/bash"]
+          args: ["-c", "trap : TERM INT; sleep infinity & wait"]
